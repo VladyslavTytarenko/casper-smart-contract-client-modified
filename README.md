@@ -1,6 +1,6 @@
 # casper-contracts-js-clients
 
-This project contains a library that will help you create clients for Casper contracts and a few implementations of such clients dedicated to interacting with smart contracts on Casper. 
+This project contains a library that will help you create clients for Casper contracts and a few implementations of such clients dedicated to interacting with smart contracts on Casper.
 
 ## Usage examples
 
@@ -45,4 +45,17 @@ You must specify all the environment variables in the `.env.cep47` file. If you 
   ```
   npm run e2e:cep47:mint
   ```
+
+## Casper account import
+- Use follow command for generate Casper crypto account: 
+  ```
+  casper-client keygen keys/
+  ```
+- Will be generated keys folders with account private and public keys
+
+  ![keys folder](images/img.png)
+
+- Download Casper Wallet for Google Chrome or any other browser
+- Click on ```import``` button
+- Upload ```secret_key.pem``` and generate name for this account
  
