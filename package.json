@@ -13,7 +13,8 @@
     "dist": "lerna run dist --include-dependencies",
     "publish:ci": "lerna publish from-package --yes --no-verify-access",
     "e2e:cep47:install": "ts-node ./e2e/cep47/install.ts",
-    "e2e:cep47:usage": "ts-node ./e2e/cep47/usage.ts"
+    "e2e:cep47:usage": "ts-node ./e2e/cep47/usage.ts",
+    "e2e:cep47:mint": "ts-node ./e2e/cep47/mint.ts"
   },
   "keywords": [],
   "author": "Jan Hoffmann <jan@casperlabs.io>",
